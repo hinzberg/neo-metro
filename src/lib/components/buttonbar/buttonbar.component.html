@@ -1,0 +1,13 @@
+<div class="buttonbar" [style.width]="width || '100%'">
+  <div class="start">
+    <ng-content select="[start]"></ng-content>
+  </div>
+
+  <div class="center">
+    <ng-content></ng-content>
+  </div>
+
+  <div class="end">
+    <ng-content select="[end]"></ng-content>
+  </div>
+</div>

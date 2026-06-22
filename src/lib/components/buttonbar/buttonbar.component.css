@@ -1,0 +1,32 @@
+.buttonbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Metro-inspired: flat but with rounded container as requested */
+  background-color: #6667AB;
+  border-radius: 8px;
+
+  padding: 4px;
+  gap: 4px;
+}
+
+.start,
+.end {
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly; /* equal spacing */
+  align-items: center;
+}
+
+/* Make inner buttons visually merge with bar */
+.buttonbar ::ng-deep .btn-primary {
+  background-color: transparent;
+}
