@@ -7,10 +7,11 @@
 
   /* Metro-inspired: flat but with rounded container as requested */
   background-color: #6667AB;
-  border-radius: 8px;
-
+  border-radius: 20px;
+  corner-shape: squircle;
   padding: 4px;
   gap: 4px;
+  height: 40px; 
 }
 
 .start,

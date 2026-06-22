@@ -7,13 +7,18 @@
 
   /* spacing (4px grid) */
   padding: 12px 16px;
-  min-height: 40px; /* touch target */
+  height: 40px; 
 
   /* typography-first */
   font-family: "Segoe UI", "Segoe", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1;
+
+  /* layout */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   /* behavior */
   cursor: pointer;
