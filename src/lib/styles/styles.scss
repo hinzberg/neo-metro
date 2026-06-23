@@ -1,0 +1,34 @@
+:root {
+  --bg: #{$color-page-bg};
+  --surface: #{$color-surface};
+  --fg: #{$color-fg};
+  --fg-secondary: #{$color-fg-secondary};
+  --fg-muted: #{$color-fg-muted};
+  --fg-disabled: #{$color-fg-disabled};
+  --hairline: #{$color-hairline};
+  --accent: #{$color-primary};
+  --accent-dark: #{$color-primary-dark};
+  --on-accent: #{$color-primary-text};
+  --danger: #{$color-reset};
+  --danger-dark: #{$color-reset-dark};
+
+  --font-family: "Segoe UI", "Segoe", Tahoma, Geneva, Verdana, sans-serif;
+  --fs-hero: 42px;
+  --fs-header: 24px;
+  --fs-subheader: 20px;
+  --fs-body: 15px;
+  --fs-caption: 12px;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-semibold: 600;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-12: 48px;
+
+  --page-margin: 24px;
+  --touch-min: 40px;
+}

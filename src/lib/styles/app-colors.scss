@@ -1,0 +1,22 @@
+// ─── Brand / accent ──────────────────────────────────────────────
+$color-primary:        #6667AB; // Very Peri (accent)
+$color-primary-dark:   #46478B; // accent hover / active
+$color-primary-text:   #ffffff; // text & icons on accent surfaces
+
+// ─── Surfaces & text (Metro light theme) ─────────────────────────
+$color-page-bg:        #f2f2f2; // app background
+$color-surface:        #ffffff; // panels / cards / tiles
+$color-fg:             #1a1a1a; // primary text
+$color-fg-secondary:   rgba(26, 26, 26, 0.6); // secondary text (opacity, not gray)
+$color-fg-muted:       #646464; // muted labels
+$color-fg-disabled:    #a0a0a0; // inactive rows
+$color-hairline:       #e0e0e0; // dividers / thin borders
+
+// ─── Danger / destructive ────────────────────────────────────────
+$color-reset:          #ff4d4d; // delete / reset actions
+$color-reset-dark:     #df2d2d; // hover / active
+
+// ─── Feedback ────────────────────────────────────────────────────
+$color-error-text:     #f67067; // validation error text / border
+$color-error-bg:       #fcf5c7; // error / warning highlight background
+$color-error-input-bg: #fff3cd; // invalid input field background
